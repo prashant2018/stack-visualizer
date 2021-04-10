@@ -3,6 +3,11 @@ var Stack = require('../model/stack');
 var router = express.Router();
 
 var stack = new Stack(10);
+
+router.get('/', function(req, res, next) {
+    res.render('index.html');
+});
+
 router.get('/push', function(req, res, next) {
 
     if (!req.query.num)
