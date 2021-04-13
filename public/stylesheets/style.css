@@ -1,10 +1,23 @@
-body {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+
+/* body {
     padding: 50px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    position: relative;
 }
 
 a {
     color: #00B7FF;
+}
+
+.container {
+    height: 100vh;
+    width: auto;
 }
 
 .stack-title {
@@ -15,6 +28,8 @@ a {
 
 .stack-input {
     text-align: center;
+    justify-items: center;
+    align-self: center;
 }
 
 .push {
@@ -34,4 +49,4 @@ a {
 .flex-col {
     display: flex;
     flex-direction: column;
-}
+} */
